@@ -1,11 +1,3 @@
-# Mesh Data Transformation - Assignment Submission
-
-**Author:** Shrish Mishra  
-**Date:** November 10, 2025  
-**Assignment:** Mesh Data Transformation and Error Analysis
-
----
-
 ## Project Overview
 
 This project implements mesh data transformation techniques including normalization, quantization, and reconstruction with comprehensive error analysis. The assignment covers three main tasks:
@@ -13,6 +5,35 @@ This project implements mesh data transformation techniques including normalizat
 1. **Data Loading & Exploration** - Loading and analyzing 3D mesh files
 2. **Normalization & Quantization** - Applying two normalization methods with quantization
 3. **Reconstruction & Error Analysis** - Dequantizing, denormalizing, and measuring reconstruction errors
+
+---
+## Visualizations Generated
+
+The notebook generates the following visualizations:
+
+1. **2D Projections** (Task 1)
+   - Top view (XY plane)
+   - Front view (XZ plane)
+   - Side view (YZ plane)
+     
+<img width="981" height="714" alt="Screenshot 2025-11-09 at 3 09 19 PM" src="https://github.com/user-attachments/assets/01724ae1-eaf9-49a8-ad01-5e0ac3a62a96" />
+
+
+2. **Normalization Comparison** (Task 2)
+   - Original vs Normalized vs Quantized (both methods)
+   - 3D scatter plots with color-coded vertices
+
+ ---<img width="1110" height="270" alt="Screenshot 2025-11-10 at 5 23 29 PM" src="https://github.com/user-attachments/assets/bfbdba5e-eda3-4e81-8ff4-afe8aa2942f8" />
+ 
+ 
+<img width="1110" height="271" alt="Screenshot 2025-11-10 at 5 23 51 PM" src="https://github.com/user-attachments/assets/9ea92738-87ad-427c-8d95-5c7d4059e0b2" />
+
+3. **Reconstruction Analysis** (Task 3)
+   - Original vs Reconstructed (side-by-side comparison)
+   - Per-axis MSE bar charts
+   - Per-axis MAE bar charts
+   - Overall error comparison (all meshes)
+   - Error distribution heatmaps
 
 ---
 
@@ -185,28 +206,6 @@ pip install trimesh open3d numpy matplotlib pandas scipy
 - **For Reconstruction Tasks**: Use **Min-Max Normalization** (lowest error)
 - **For Machine Learning**: Use **Unit Sphere Normalization** (better geometric properties)
 - **Quantization**: 1024 bins provide excellent accuracy-efficiency balance
-
----
-
-## Visualizations Generated
-
-The notebook generates the following visualizations:
-
-1. **2D Projections** (Task 1)
-   - Top view (XY plane)
-   - Front view (XZ plane)
-   - Side view (YZ plane)
-
-2. **Normalization Comparison** (Task 2)
-   - Original vs Normalized vs Quantized (both methods)
-   - 3D scatter plots with color-coded vertices
-
-3. **Reconstruction Analysis** (Task 3)
-   - Original vs Reconstructed (side-by-side comparison)
-   - Per-axis MSE bar charts
-   - Per-axis MAE bar charts
-   - Overall error comparison (all meshes)
-   - Error distribution heatmaps
 
 ---
 
