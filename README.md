@@ -73,7 +73,7 @@ pip install trimesh open3d numpy matplotlib pandas scipy
 
 ## Tasks Breakdown
 
-### **Task 1: Data Loading and Exploration** (20 Marks)
+### **Task 1: Data Loading and Exploration**
 **What it does:**
 - Loads 8 mesh files from the `8samples/` folder using Trimesh
 - Extracts vertex coordinates (x, y, z) as NumPy arrays
@@ -87,7 +87,7 @@ pip install trimesh open3d numpy matplotlib pandas scipy
 
 ---
 
-### **Task 2: Normalization and Quantization** (40 Marks)
+### **Task 2: Normalization and Quantization**
 **What it does:**
 - Implements **two normalization methods**:
   1. **Min-Max Normalization**: Scales coordinates to [0, 1] range
@@ -108,7 +108,7 @@ pip install trimesh open3d numpy matplotlib pandas scipy
 
 ---
 
-### **Task 3: Dequantization, Denormalization & Error Analysis** (40 Marks)
+### **Task 3: Dequantization, Denormalization & Error Analysis**
 **What it does:**
 - Reverses the transformation pipeline:
   - **Dequantize**: Recover normalized coordinates from quantized data
