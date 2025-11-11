@@ -1,0 +1,20 @@
+# Requirements for Mesh Data Transformation Assignment
+# Install with: pip install -r requirements.txt
+
+# Core mesh processing libraries
+trimesh>=3.23.0
+open3d>=0.17.0
+
+# Numerical computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Data manipulation and analysis
+pandas>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Jupyter notebook support (optional, if running locally)
+jupyter>=1.0.0
+notebook>=6.5.0
